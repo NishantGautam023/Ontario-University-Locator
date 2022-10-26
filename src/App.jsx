@@ -1,6 +1,7 @@
 import { useState,useEffect } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
+import mapboxgl from "mapbox-gl/dist/mapbox-gl.js"
 
 function App() {
   const [random, setRandom] = useState(Math.random());
